@@ -1,8 +1,8 @@
 title: Arpit Agrawal GSoC Report
 email: agrawalarpit14@gmail.com
 
-baseurl: "GSoC"
-url: ""
+baseurl: "/GSoC"
+url: "https://agrawalarpit14.github.io/GSoC/"
 twitter_username: jekyllrb
 github_username:  jekyll
 

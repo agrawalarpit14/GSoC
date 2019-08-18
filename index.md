@@ -1,229 +1,180 @@
 ---
 layout: report
-url: hemang
-student: Hemang Kumar
-organisation: coala
-organisation_link : https://coala.io
-project: Improve coala Website & Supporting Tools
-project_link: https://summerofcode.withgoogle.com/projects/#6012382913495040
-tarball: https://github.com/hemangsk/GSoCReport/raw/master/hemangsk_coala.tar
+url: agrawalarpit14
+student: Arpit Agrawal
+organisation: OWASP Foundation (Juice Shop Project)
+organisation_link : https://www.owasp.org/index.php/OWASP_Juice_Shop_Project
+project: Feature Pack 2019
+project_link: https://summerofcode.withgoogle.com/projects/#5592124823699456
 mentors: >
- [Lasse Schuirmann](https://github.com/sils) & [Fabian Neuschmidt](https://github.com/fneu)
-phase:
- - Bonding : https://gitlab.com/coala/GSoC-2017/milestones/3
- - Phase 1 : https://gitlab.com/coala/GSoC-2017/milestones/7
- - Phase 2 : https://gitlab.com/coala/GSoC-2017/milestones/8
- - Phase 3 : https://gitlab.com/coala/GSoC-2017/milestones/9
+ [Björn Kimminich](https://github.com/bkimminich) & [Jannik Hollenbach](https://github.com/J12934) & [Shoeb Patel](https://github.com/CaptainFreak)
 bio: >
- I'm a final year student of Computer Science & Engineering at University School of Information,
- Communication & Technology, GGS IP University. I participated in GSoC and worked with [coala](coala.io) to facilitate users to use coala online and functionality for one click Git Repository linting. I also worked on a bot to generate coafile, worked on improving UI of coala-html and configurability of coala-projects. I also worked on adding Notification and Thread support in the IGitt library.  
+ I am presently pursuing a degree in Computer Science and Engineering, at the Indian Institute of Technology, Dharwad. From the age of fifteen, I have been exploring the field of Computer Security and have developed a strong passion for it. I started in this field, by reading various research papers and blogs, auditing online courses and tutorials and implementing the learned tricks and tools. I even managed to find security vulnerabilities in my college network. An early motivator in my open-source journey was my first commit to the Metasploit Framework. As days progressed, I was introduced to OWASP and Juice Shop then became my major source of learning.
 social:
  - GitHub:
-   - username: hemangsk
-   - link: https://github.com/hemangsk
+   - username: agrawalarpit14
+   - link: https://github.com/agrawalarpit14
  - GitLab:
-   - username: hemangsk
-   - link: https://gitlab.com/hemangsk
- - Gitter:
-   - username: hemangsk
-   - link: https://gitter.im/hemangsk
- - HackerRank:
-   - username: hemangsk
-   - link: https://hackerrank/hemang
-email: hemangsk@gmail.com
+   - username: agrawalarpit14
+   - link: https://gitlab.com/agrawalarpit14
+email: agrawal.arpit14@gmail.com
 blog: http://hemangsk.github.io/stories.html
 activity:
  - 0:
-   - repo: coala-quickstart 
-   - link: https://github.com/coala/coala-quickstart/commits/master?author=hemangsk
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/980
    - details: > 
-      Add --allow-incomplete-sections mode and bump coala version.
+      Implementation of multiple user types
  - 1:
-   - repo: coalaCSS
-   - link: https://github.com/coala/coalaCSS/commits/master?author=hemangsk
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/982
    - details: >
-      Create a CSS library to have consistency throughout coala web projects.
- - 1:
-   - repo: coala Projects
-   - link: https://github.com/coala/projects/commits/master?author=hemangsk
-   - details: > 
-       Commits **f26ae52** through **6497def** were part of GSoC.
+      Implementation of stock inventory
  - 2:
-   - repo: landing-frontend
-   - link: https://github.com/coala/landing-frontend/commits/master?author=hemangsk
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1044
    - details: > 
-      Commits  **7e2efb3** through **a48a08a** were part of GSoC.
+      Implementation of Accounting user
  - 3:
-   - repo: IGitt
-   - link: https://gitlab.com/gitmate/open-source/IGitt/commit/718603aa2294a55206cfaa8806aa624791757ec4
-   - details: Add put method
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1056
+   - details: > 
+      Implementation of limit on purchase of specific items 
  - 4:
-   - repo: IGitt
-   - link: https://gitlab.com/gitmate/open-source/IGitt/commit/ae503347ff50af5109787257deef340bccdaa476
-   - details: Add eliminate_none method
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1108
+   - details: Add address component 
  - 5:
-   - repo: IGitt
-   - link: https://gitlab.com/gitmate/open-source/IGitt/commit/66c7d739e15fec9fef6ed0b303d513ce5dbe5fd2
-   - details: Add create_mr, create_file, delete and fork
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1120
+   - details: Implementation of Payment Method Component
  - 6:
-   - repo: IGitt
-   - link: https://gitlab.com/gitmate/open-source/IGitt/commit/a549c0f4f58815bbcb1313836402c04dab65a427
-   - details: Add content support
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1121
+   - details: Add Order Summary Page
  - 7:
-   - repo: IGitt
-   - link: https://gitlab.com/gitmate/open-source/IGitt/commit/9df49ee894556a8dea1d735dddadacb6aebd1542
-   - details: Add notification and threads support
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1123
+   - details: Add quantity labels
  - 8:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/d654330d3835d6de7a628f37222b136393eba1fc
-   - details: Add coala_online endpoint
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1127
+   - details: Quantity refactoring
  - 9:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/93de4d7bbabd8d831dd19982d50eeb258266e6dd
-   - details: Register coala_online endpoint
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1130
+   - details: Add Order Confirmation Page
  - 10:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/2b58d950983d2bb8c686e0364f5d9abe8d806eae
-   - details: Add coala_online in INSTALLED_APPS
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1151
+   - details: Fix Build, Modify Data Type
  - 11:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/bf399738d9c38c66315f3d5d4558dd5f15ed0106
-   - details: Use celery task to spawn Docker container
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1152
+   - details: Payment component
  - 12:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/c4d27e0887a7afb0164ba952b1919186c5b3338c
-   - details: Add coala.io in ALLOWED_HOSTS
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1168
+   - details: Implement Delivery methods
  - 13:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/3f325f49a6b8f5a7af3e86f89cd6511e891b3364
-   - details: Use gitmate celery task
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1170
+   - details: Pre-store Addresses and Cards, Change card expiry year range
  - 14:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/69286e533f2d33215f8d153052dd8df7d5c2bea4
-   - details: Set FORCE_CELERY to True
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1171
+   - details: Implement Order History
  - 15:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/861600a07639d6539c57561be090b2c2c8a4f03d
-   - details: Set CELERY_RESULT_BACKEND to amqp
- - 16:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/b0cc1eacbce9e555287ed790dc0e2c8c52eece12
-   - details: Add Rate Limiting and DRF
- - 14:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/69286e533f2d33215f8d153052dd8df7d5c2bea4
-   - details: Set FORCE_CELERY to True
- - 15:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/861600a07639d6539c57561be090b2c2c8a4f03d
-   - details: Set CELERY_RESULT_BACKEND to amqp
- - 16:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/976e7e0e9154179cabe878ec14d68cf6fba67ebc
-   - details: Bump IGitt to latest dev version
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1174
+   - details: Implement Digital Wallet View
  - 17:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/e9cbd7f056c4a25a2406e70f6791f7fada8c4104
-   - details: Add coafile_bot
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1178
+   - details: Implement Deluxe Membership Purchase View
  - 18:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/4e39ff4e38c6dd3165be717602b58bdb2a794bd7
-   - details: Add GITHUB_BOT_USER
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1179
+   - details: Make icons green according to the status of order
  - 19:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/59562470ac2df18ae7733b7c3ac6cf445813aa64
-   - details: Rename tokens and add default value
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1180
+   - details: Implement Photo wall
  - 20:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/0b410d49b389d219f622e9089f928893e5cccde6
-   - details: Return pull request object on retries
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1183
+   - details: Make delivery box image customizable
  - 21:
-   - repo: coala-html
-   - link: https://github.com/coala/coala-html/commits/master?author=hemangsk
-   - details: Commits **bb9d9d6** through **6f67174** were part of GSoC
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1184
+   - details: Merge payment routes
  - 22:
-   - repo: landing
-   - link: https://gitlab.com/coala/landing/commits/master
-   - details: Commits **095f1561** through **a206ef6d** were part of GSoC
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1186
+   - details: Add memory to data export, add twitter button
  - 23:
-   - repo: coala-online-docker
-   - link: https://gitlab.com/hemangsk/coala-incremental-results/commit/772fbbab828669202bffce6bcdb8ae963c0f0a99
-   - details: Install shallow clone of quickstart
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1187
+   - details: Add address to recycle component
  - 24:
-   - repo: coala-online-docker
-   - link: https://gitlab.com/hemangsk/coala-incremental-results/commit/fff4b49c0960a5545f601b31472ca8b697dd9118
-   - details: Add script to run analysis and quickstart
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1189
+   - details: Deals & Offers for deluxe members
  - 25:
-   - repo: coala-online-docker
-   - link: https://gitlab.com/hemangsk/coala-incremental-results/commit/ef7b79fb37512d18b2d3a35bc3e55fca09dd2cb8
-   - details: Add utility functions
- - 23:
-   - repo: coala-online-docker
-   - link: https://gitlab.com/hemangsk/coala-incremental-results/commit/1f126253f498eb3c9956c527191d0287cb130533
-   - details: Create README
- - 24:
-   - repo: coala-online-docker
-   - link: https://gitlab.com/hemangsk/coala-incremental-results/commit/c75fcdef105bbce44021db131b59dd5068e021b6
-   - details: Add temp directory for file permissions
- - 25:
-   - repo: coala-online-docker
-   - link: https://gitlab.com/hemangsk/coala-incremental-results/commit/3f11f1282ce859caf13acc6e06e72941c6d0e3a6
-   - details: Run coala
- - 25:
-   - repo: coala-online-docker
-   - link: https://gitlab.com/hemangsk/coala-incremental-results/commit/d50ce7c3161891050ecb3f44fac05fd4a2723454
-   - details: Add read_coafile function
- - 25:
-   - repo: coala-online-docker
-   - link: https://gitlab.com/hemangsk/coala-incremental-results/commit/e0222b799c3a27f1856a50ca72dfe29aee4eb085
-   - details: Keep newline characters in coafile string
- - 25:
-   - repo: coala-online-docker
-   - link: https://gitlab.com/hemangsk/coala-incremental-results/commit/e0222b799c3a27f1856a50ca72dfe29aee4eb085
-   - details: Add coafile in bear mode response
+   - repo: juice-shop
+   - link: https://github.com/bkimminich/juice-shop/pull/1191
+   - details: Fix code errors
+ - 26:
+   - repo: pwning-juice-shop
+   - link: https://github.com/bkimminich/pwning-juice-shop/pull/42
+   - details: Update happy path
 
 ---
 
-### Improve coala Website and Supporting Tools
+### Feature Pack 2019
 
+#### Features
+The project can be broken down in terms of the following features.
 
-#### Work Done
+<ol>
+  <li>
+    <b>Stock Inventory</b>
+    : Maintaining stocks of available products in the Juice Shop brings it very close to the realistic scenarios where people are unable to order the desired quantity of goods either due to unavailability or due to restriction on the quantity of an item.
+  </li>
+  <li>
+   <b>Payment Gateway</b>
+   : With this additional feature users will be able to pay for their products(no money actually involved; dummy/fake cards) and experience hacks built around the vulnerabilities in the e-payment process.
+  </li>
+  <li>
+   <b>Juice Shop Wallet</b>
+   : Many online vendors integrate their own digital wallet to smoothen the payment process. By integrating juice shop’s own wallet we can expose users to a new range of attacks including identity theft, request tampering and access token manipulation.
+  </li>
+  <li>
+   <b>Delivery methods and Order history</b>
+   : This feature can be added to involve scheduling of events in the juice shop (which can be home to various challenges) and this also brings it very close to the realistic scenario where people have multiple options to choose for the delivery service(depending on how early they need their products vs how much they are willing to pay).
+  </li>
+  <li>
+   <b>Juice Shop Prime Membership</b>
+   : A feature to provide privileged membership to the users of the juice shop giving them various benefits such as free one day delivery, no quantity limits on the purchase and special deals and offers in exchange of a membership fee(for a challenge, the attacker can try to enroll as a prime member without actually paying the membership fee).
+  </li>
+  <li>
+   <b>Photo Wall and Tweet Button</b>
+   : Many online vendors allow users registered as sellers to upload images and users registered as buyers to upload images and videos online on a photo wall or as reviews to a product. As the images are directly rendered on the frontend, the application becomes susceptible to XSS payloads, null byte injection and unrestricted file uploads.
+  </li>
+</ol>
 
-The coala Online module now has support for all the bears, bears with optional as well as non optional settings, everything can be configured. Users can perform code analysis online with any given bear. The project enhanced coala-html by introducing results and bear search and filtering on basis of parameters. A coafile_bot is created which can be used to generate coala configuration file for any given GitHub repository. One click git repository linting is possible online. A CSS framework was built upon MaterializeCSS for coala web projects [coalaCSS](https://github.com/coala/coalaCSS) and its being used via CDN at webservices.coala.io, projects.coala.io, coala.io, school.coala.io and other coala web projects.
+#### Why did I choose this idea for the project?
+When I first browsed the Juice Shop idealist the idea seemed to be very interesting and fun in the sense that I was allowed to think features without any restriction and implement them.
 
 <br>
 
-coala-quickstart has got a new running mode, allow-incomplete-sections which helps users to create a coafile without omitting bears with non optional settings. 
-
-<br>
-
-IGitt now supports Notifications and Threads for GitHub and partially for GitLab (Notifications API is not available on GitLab as of now).
-
-<br>
-
-projects.coala.io is now Jekyll based and configurable via a YAML file. It also has a more conflict free approach while simultaneously adding projects.
-
-<br>
-
-coala Online module is live and running [here](https://coala.io/#/coalaonline).
-
-<br>
-coala-html is more powerful with omni search bar and UI enhancements.
+As a user of the Juice Shop, I always felt the need of a few features such as a payment gateway and an order history page. I also thought it would be nice to have features such as privileged membership and a wallet which is a growing trend in the e-commerce presently. This motivated me to pursue the project right from the moment I saw it.
 
 #### Challenges
 
-It was a great learning experience overall, but a few challenges which proved to be a great enriching experience was working with VCRpy for IGitt tests, Working docker images which can be spawned inside a docker container itself, Visualizing the bear selection user interface on the coala Online module. These were pretty tough challenges and I was able to complete it with research, consistency but most importantly with guidance of my mentors, who were always there for me throughout the GSoC page for which I am really greatful. I learnt a lot from them, and it was an extremely great experience to work under their mentorship.
+There were times during the GSoC period where I faced various challenges but I was able to complete it with research, consistency but most importantly with guidance of my mentors, who were always there for me throughout the GSoC page for which I am really greatful. I learnt a lot from them, and it was an extremely great experience to work under their mentorship.
 
+#### Thanking Note
 
-#### Work to be done
-
-The first task, is to get all the supporting tools like coala Online, coala-html and projects.coala.io need to incooperate user feedback on the changes user experience. 
-
-<br>
-
-coafile_bot will be able to do wonders on GitLab as well once GitLab introduces Notification API. Initally I want to promote it as much as I can so that developers can have general awareness about linting, the tools available and how coala comes into the picture, and from there they can use coafile bot and then ultimately improve their git workflow. 
-
-<br>
-Essentially the projects.coala.io page can be used for a particular program like GSoC, GCI and also for general project management of an organization. Now some organization may want more flexibility on a particular feature. Depending on what more coala needs for project management, and depending upon consensus of other organization voting on a new feature, there is a great room for improvement in projects.coala.io
-
-<br>
+I extend my sincere gratitude to all readers for taking the time to read this report.
+I would also like to thank everyone who helped me in contributing to the project and honing my skills

@@ -19,7 +19,7 @@
         <br>
             <div class="row no-margin">
                 <div class="col m12">
-                    <h4 class="left light">Google Summer of Code 2017 Work Product Submission </h4>
+                    <h4 class="left light">Google Summer of Code 2019 Work Product Submission </h4>
                 </div>
                 <br>
             </div> 
@@ -28,7 +28,7 @@
                 <div class="col m6">
                     <div class="card flex1">
                         <div class="card-content">
-                            <h5 class="light no-margin"><a href="{{page.organisation_link}}">{{ page.organisation }}</a></h5>
+                            <h5 class="light no-margin"><a href="{{page.organisation_link}}"><h4>{{ page.organisation }}</h4></a></h5>
                             <h3 class="light">{{ page.student }}</h3>
                             <p>{{page.bio | markdownify}}</p>
                         </div>
@@ -39,14 +39,14 @@
                         <div class="card-content">
                             <div class="center"><h4 class="light no-margin">Project Title</h4></div>
                             <br>
-                            <div class="center"><a href="{{page.project_link}}">{{ page.project }}</a></div>
+                            <div class="center"><a href="{{page.project_link}}"><h3>{{ page.project }}</h3></a></div>
                         </div>
                     </div>
                     <div class="card flex1">
                         <div class="card-content">
-                            <div class="center"><h4 class="light no-margin">GSoC Blog</h4></div>
-                            <br>
-                            <div class="center"><a class="blog-link" href="{{ page.blog }}">{{ page.blog }}</a></div>
+                        <div class="center"><h5 class="light no-margin">Mentors</h5></div>
+                        <br>
+                        <div class="center"><h4>{{ page.mentors  | markdownify }}</h4></div>
                         </div>
                     </div>
                 </div>
@@ -57,66 +57,35 @@
                                 <div class="link">
                                 {% for item in ih %}
                                     <div class="row no-margin ">
-                                        <div class="col m6">{{item[0]}}</div>
-                                        <div class="col m6"><a href="{{item[1][1]['link']}}">{{item[1][0]['username']}}</a></div>
+                                        <div class="col m4"><h5>{{item[0]}}</h5></div>
+                                        <div class="col m8"><a href="{{item[1][1]['link']}}"><h5>{{item[1][0]['username']}}</h5></a></div>
                                     </div>
+                                    <br>
+                                    <br>
+                                    <br>
                                 {% endfor %}
                                 </div>
-                                {% if forloop.last == false %}<div class="divider"></div>{% endif%}
                             {% endfor %}
-                            <br>
                             <div class="row no-margin center">
-                                <div class="col m3"><i class="fa fa-envelope-o"></i></div>
-                                <div class="col m9">{{ page.email }}</div>
+                                <div class="col m12"><i class="fa fa-envelope-o"></i></div>
+                                <br>
+                                <div class="col m12"><h6><a href="mailto:agrawal.arpit14@gmail.com">{{ page.email }}</a></h6></div>
                             </div>
 
                         </div>
                     </div>
                 </div>
             </div>
+           
             <br>
-            <div class="row no-margin">
-                <div class="col m2">
-                    <div class="card flex1">
-                        <div class="card-content">
-                            <div class="center"><h5 class="light no-margin">Project Tarball</h5></div>
-                            <br>
-                            <div class="center"><a href="{{ page.tarball }}">Download</a></div>
-                        </div>
-                    </div>
-                </div>
-                {% for ih in page.phase %}
-                    {% for item in ih %}
-                        <div class="col m2">
-                            <div class="card flex1">
-                                <div class="card-content">
-                                <div class="center"><h5 class="light no-margin">{{item[0]}}</h5></div>
-                                <br>
-                                <div class="center"><a href="{{item[1]}}">View Milestone</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
-                {% endfor %}
-                <div class="col m2">
-                    <div class="card flex1">
-                        <div class="card-content">
-                        <div class="center"><h5 class="light no-margin">Mentors</h5></div>
-                        <br>
-                        <div class="center">{{ page.mentors  | markdownify }}</div>
-                        </div>
-                    </div>
-                </div>
-  
-            </div>	
-            <br>
+            <h4 class="left light">Merged Pull Requests </h4>
             <div class="no-margin">
                 <table class="padding-table">
                     <thead class="no-border">
                         <tr class="blue-grey-text text-lighten-2">
                             <td></td>
                             <td>Repository</td>
-                            <td>Link to Commit/s</td>
+                            <td>Link to PRs</td>
                             <td>Description</td>
                         </tr>
                     </thead>
