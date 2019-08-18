@@ -39,7 +39,7 @@ activity:
    - repo: juice-shop
    - link: https://github.com/bkimminich/juice-shop/pull/1056
    - details: > 
-      Implementation of limit on purchase of specific items 
+      Implementation of limit on the purchase of specific items 
  - 4:
    - repo: juice-shop
    - link: https://github.com/bkimminich/juice-shop/pull/1108
@@ -95,7 +95,7 @@ activity:
  - 18:
    - repo: juice-shop
    - link: https://github.com/bkimminich/juice-shop/pull/1179
-   - details: Make icons green according to the status of order
+   - details: Make icons green according to the status of an order
  - 19:
    - repo: juice-shop
    - link: https://github.com/bkimminich/juice-shop/pull/1180
@@ -115,7 +115,7 @@ activity:
  - 23:
    - repo: juice-shop
    - link: https://github.com/bkimminich/juice-shop/pull/1187
-   - details: Add address to recycle component
+   - details: Add addresses to recycle component
  - 24:
    - repo: juice-shop
    - link: https://github.com/bkimminich/juice-shop/pull/1189
@@ -147,7 +147,7 @@ The project can be broken down in terms of the following features.
   </li>
   <li>
    <b>Juice Shop Wallet</b>
-   : Many online vendors integrate their own digital wallet to smoothen the payment process. By integrating juice shop’s own wallet we can expose users to a new range of attacks including identity theft, request tampering and access token manipulation.
+   : Many online vendors integrate their own digital wallet to smoothen the payment process. By integrating juice shop’s wallet we can expose users to a new range of attacks including identity theft, request tampering, and access token manipulation.
   </li>
   <li>
    <b>Delivery methods and Order history</b>
@@ -159,7 +159,7 @@ The project can be broken down in terms of the following features.
   </li>
   <li>
    <b>Photo Wall and Tweet Button</b>
-   : Many online vendors allow users registered as sellers to upload images and users registered as buyers to upload images and videos online on a photo wall or as reviews to a product. As the images are directly rendered on the frontend, the application becomes susceptible to XSS payloads, null byte injection and unrestricted file uploads.
+   : Many online vendors allow users registered as sellers to upload images and users registered as buyers to upload images and videos online on a photo wall or as reviews to a product. As the images are directly uploaded without sufficient checks, the application becomes susceptible to various vulnerabilities.
   </li>
 </ol>
 
@@ -172,9 +172,8 @@ As a user of the Juice Shop, I always felt the need of a few features such as a 
 
 #### Challenges
 
-There were times during the GSoC period where I faced various challenges but I was able to complete it with research, consistency but most importantly with guidance of my mentors, who were always there for me throughout the GSoC page for which I am really greatful. I learnt a lot from them, and it was an extremely great experience to work under their mentorship.
+There were times during the GSoC period where I faced various challenges but I was able to complete it with research, consistency but most importantly with the guidance of my mentors, who were always there for me throughout the GSoC page for which I am grateful. I learned a lot from them, and it was an extremely great experience to work under their mentorship.
 
 #### Thanking Note
 
-I extend my sincere gratitude to all readers for taking the time to read this report.
-I would also like to thank everyone who helped me in contributing to the project and honing my skills
+I extend my sincere gratitude to all readers for taking the time to read this report. I would also like to thank everyone who helped me in contributing to the project and honing my skills.
