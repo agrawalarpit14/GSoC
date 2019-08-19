@@ -143,23 +143,23 @@ The project can be broken down in terms of the following features.
   </li>
   <li>
    <b>Payment Gateway</b>
-   : With this additional feature users will be able to pay for their products(no money actually involved; dummy/fake cards) and experience hacks built around the vulnerabilities in the e-payment process.
+   : With this additional feature, users will be able to pay for their products(no money involved; dummy/fake cards).
   </li>
   <li>
    <b>Juice Shop Wallet</b>
-   : Many online vendors integrate their own digital wallet to smoothen the payment process. By integrating juice shop’s wallet we can expose users to a new range of attacks including identity theft, request tampering, and access token manipulation.
+   :  The wallet provides a convenient and technologically quick method for consumers to purchase products from the Juice Shop.
   </li>
   <li>
    <b>Delivery methods and Order history</b>
-   : This feature can be added to involve scheduling of events in the juice shop (which can be home to various challenges) and this also brings it very close to the realistic scenario where people have multiple options to choose for the delivery service(depending on how early they need their products vs how much they are willing to pay).
+   : This feature can be added to involve scheduling of events in the juice shop and this also brings it very close to the realistic scenario where people have multiple options to choose for the delivery service(depending on how early they need their products vs how much they are willing to pay).
   </li>
   <li>
-   <b>Juice Shop Prime Membership</b>
-   : A feature to provide privileged membership to the users of the juice shop giving them various benefits such as free one day delivery, no quantity limits on the purchase and special deals and offers in exchange of a membership fee(for a challenge, the attacker can try to enroll as a prime member without actually paying the membership fee).
+   <b>Juice Shop Deluxe Membership</b>
+   : A feature to provide privileged membership to the users of the juice shop giving them various benefits such as free one-day delivery, no quantity limits on the purchase and special deals and offers in exchange of a membership fee.
   </li>
   <li>
    <b>Photo Wall and Tweet Button</b>
-   : Many online vendors allow users registered as sellers to upload images and users registered as buyers to upload images and videos online on a photo wall or as reviews to a product. As the images are directly uploaded without sufficient checks, the application becomes susceptible to various vulnerabilities.
+   : It allows users registered users to upload their juiciest memories on a photo wall and adding a tweet button to the shop will help it reach to the security enthusiasts all around the world.
   </li>
 </ol>
 
